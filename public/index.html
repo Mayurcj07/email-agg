@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>📬 Onebox Email Aggregator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📬 Onebox Email Aggregator Demo</h1>
+
+  <div id="addEmail">
+    <h3>Add a Random Email</h3>
+    <input id="subjectInput" placeholder="Subject" /><br>
+    <input id="fromInput" placeholder="From (email)" /><br>
+    <textarea id="bodyInput" placeholder="Email body"></textarea><br>
+    <button onclick="addEmail()">➕ Add Email</button>
+  </div>
+
+  <div id="searchBar">
+    <input id="searchInput" placeholder="Search emails..." />
+    <button onclick="loadEmails()">Search</button>
+  </div>
+
+  <div id="emails"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

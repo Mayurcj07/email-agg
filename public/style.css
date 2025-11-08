@@ -1,0 +1,60 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+#searchBar, #addEmail {
+  text-align: center;
+  margin-bottom: 20px;
+}
+input, textarea {
+  padding: 6px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  margin: 4px;
+}
+textarea {
+  width: 80%;
+  height: 60px;
+  resize: none;
+}
+button {
+  padding: 6px 12px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.email-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+}
+.badge {
+  padding: 3px 8px;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+}
+.Interested { background: #28a745; }
+.MeetingBooked { background: #007bff; }
+.NotInterested { background: #6c757d; }
+.Spam { background: #dc3545; }
+.OutofOffice { background: #ffc107; color: black; }
+.reply-btn {
+  background-color: #17a2b8;
+  margin-top: 8px;
+}
